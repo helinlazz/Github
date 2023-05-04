@@ -46,4 +46,20 @@ const Laura =   {
        
     
         team.push(dina)
-        console.log(team);
+        
+        const Nicola =  {
+            name: "Nicola",
+            surname: "Destro",
+            age: 27,
+            city: "Catania",
+            hobby: "Musica",
+            favoriteFood: "Cotoletta",
+            favoriteVideoGame: "Tekken",
+            favoriteFilm: "Forrest Gump",
+            favoriteBook:'Kobane Calling',
+            petName:'Teo'
+            }
+       
+    
+        team.push(Nicola)
+        console.log(team)
