@@ -30,4 +30,20 @@ const Laura =   {
             };
 
         team.push(Mirka);
+
+        const dina =  {
+            name: "Dina",
+            surname: "Timcu",
+            age: 23,
+            city: "Bologna",
+            hobby: "Disegnare",
+            favoriteFood: "Pizza",
+            favoriteVideoGame: "Fifa",
+            favoriteFilm: "Animali fantastici",
+            favoriteBook:'Cronache di fuoco e ghiaccio',
+            petName:'Mair'
+            }
+       
+    
+        team.push(dina)
         console.log(team);
