@@ -59,6 +59,20 @@ const Nicola = {
 
 team.push(Nicola);
 
+const leo =  {
+  name: "leonardo",
+  surname: "sorrentino",
+  age: 27,
+  city: "cosmopolitan",
+  hobby: "poliedricOne",
+  favoriteFood: "pane",
+  favoriteVideoGame: "TotalWarSaga",
+  favoriteFilm: "myLife",
+  favoriteBook:'myLife',
+  petName:'Kizuna'
+  }
+  
+
 function alphOrder(array) {
   array.sort((a, b) => a.name.localeCompare(b.name));
   for (let i = 0; i < array.length; i++) {
