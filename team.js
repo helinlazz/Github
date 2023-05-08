@@ -67,4 +67,11 @@ function alphOrder(array) {
 }
 alphOrder(team);
 
+function ageOrder(array){
+  array.sort((a, b) => a.age-(b.age));
+for (let i = 0; i < array.length; i++) {
+console.log(array[i].name, array[i].age);
+}}
+ageOrder(team)
+
 
