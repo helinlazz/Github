@@ -102,3 +102,15 @@ function lOl(array){
     } 
 }
 lOl(team)
+
+function sameName(array) {
+  for (let i = 0; i < array.length; i++) {
+    for (let x = i + 1; x < array.length; x++) {
+      if (array[i].name === array[x].name) {
+        console.log(array[i].name);
+      }
+    }
+  }
+}
+
+sameName(team);
