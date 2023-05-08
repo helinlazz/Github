@@ -74,4 +74,10 @@ console.log(array[i].name, array[i].age);
 }}
 ageOrder(team)
 
-
+function midAge(array){
+    let sum=0
+    for(let i=0; i<array.length; i++){
+        sum+=(array[i].age)/array.length
+    }console.log("L'età media è" + " " + sum)
+}
+midAge(team)
