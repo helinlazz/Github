@@ -81,3 +81,14 @@ function midAge(array){
     }console.log("L'età media è" + " " + sum)
 }
 midAge(team)
+
+function petName(array){
+  for(let i=0; i<array.length; i++){
+      if(array[i].petName !==""){
+          console.log("L'animale di "+array[i].name + " si chiama "+ array[i].petName)
+      }else{
+          console.log(array[i].name+" non ha un animale")
+      }
+  }
+}
+petName(team)
