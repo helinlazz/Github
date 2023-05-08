@@ -92,3 +92,13 @@ function petName(array){
   }
 }
 petName(team)
+
+function lOl(array){
+    for(let i=0; i<array.length; i++){
+        if(array[i].favoriteVideoGame ==="LOL"||
+        array[i].favoriteVideoGame == "League Of Legends"){
+            console.log("Il gioco preferito di "+ array[i].name + " è "+ "League of legend")
+        }
+    } 
+}
+lOl(team)
