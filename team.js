@@ -71,7 +71,7 @@ const leo =  {
   favoriteBook:'myLife',
   petName:'Kizuna'
   }
-  
+  team.push(leo);
 
 function alphOrder(array) {
   array.sort((a, b) => a.name.localeCompare(b.name));
